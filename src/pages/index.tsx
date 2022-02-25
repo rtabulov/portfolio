@@ -1,13 +1,9 @@
-import {
-  Chat16,
-  CheckmarkFilled24,
-  LogoGithub16,
-  Partnership16,
-  Portfolio16,
-} from '@carbon/icons-react';
+import { Chat16, Partnership16 } from '@carbon/icons-react';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import AppLink from '../components/AppLink';
+import AppList from '../components/AppList';
+import AppListItem from '../components/AppListItem';
 
 const Home: NextPage = () => {
   return (
@@ -57,56 +53,26 @@ const Home: NextPage = () => {
           stuff i already <span className="text-violet-400">work</span> with
         </h2>
 
-        <ul className="mt-4 flex flex-col justify-center gap-4 md:flex-row">
-          <li>
-            <CheckmarkFilled24 className="mr-2 inline align-middle text-teal-300" />
-            javascript
-          </li>
-          <li>
-            <CheckmarkFilled24 className="mr-2 inline align-middle text-teal-300" />
-            typescript
-          </li>
-          <li>
-            <CheckmarkFilled24 className="mr-2 inline align-middle text-teal-300" />
-            react (hooks)
-          </li>
-          <li>
-            <CheckmarkFilled24 className="mr-2 inline align-middle text-teal-300" />
-            vue 3
-          </li>
-          <li>
-            <CheckmarkFilled24 className="mr-2 inline align-middle text-teal-300" />
-            vue 2
-          </li>
-          <li>
-            <CheckmarkFilled24 className="mr-2 inline align-middle text-teal-300" />
-            next js
-          </li>
-        </ul>
+        <AppList>
+          <AppListItem>javascript</AppListItem>
+          <AppListItem>typescript</AppListItem>
+          <AppListItem>react (hooks)</AppListItem>
+          <AppListItem>vue 3</AppListItem>
+          <AppListItem>vue 2</AppListItem>
+          <AppListItem>next js</AppListItem>
+        </AppList>
       </section>
       <section className="container py-4 text-center">
         <h2 className="text-2xl ">
           stuff i am <span className="text-violet-400">learning</span> at the
           moment
         </h2>
-        <ul className="mt-4 flex flex-col justify-center gap-4 md:flex-row">
-          <li>
-            <CheckmarkFilled24 className="mr-2 inline align-middle text-teal-300" />
-            nest js
-          </li>
-          <li>
-            <CheckmarkFilled24 className="mr-2 inline align-middle text-teal-300" />
-            remix.run
-          </li>
-          <li>
-            <CheckmarkFilled24 className="mr-2 inline align-middle text-teal-300" />
-            react 18 concurrent features
-          </li>
-          <li>
-            <CheckmarkFilled24 className="mr-2 inline align-middle text-teal-300" />
-            react 18 streaming
-          </li>
-        </ul>
+        <AppList>
+          <AppListItem>nest js</AppListItem>
+          <AppListItem>remix.run</AppListItem>
+          <AppListItem>react 18 concurrent features</AppListItem>
+          <AppListItem>react 18 streaming</AppListItem>
+        </AppList>
       </section>
       <section id="contact" className="conatiner py-4 text-center">
         <h2 className="text-2xl">
