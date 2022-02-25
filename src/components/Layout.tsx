@@ -1,4 +1,5 @@
 import { LogoGithub24 } from '@carbon/icons-react';
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import AppLink from './AppLink';
@@ -37,7 +38,18 @@ function Layout({ children }: Props) {
 
       <footer className="shrink-0 py-2 text-center">
         <div className="container">
-          <p>make love, not war ✌️</p>
+          <p>
+            make love, not war ✌️☮️{' '}
+            <span className="align-middle">
+              <Image
+                src="/ua.svg"
+                alt="ukraine"
+                className="inline"
+                height={16}
+                width={25}
+              />
+            </span>
+          </p>
           <p>
             <span className="text-violet-400">rassul tabulov</span>
           </p>
