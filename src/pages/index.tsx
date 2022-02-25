@@ -55,7 +55,7 @@ const Home: NextPage = () => {
           stuff i already <span className="text-violet-500">work</span> with
         </h2>
 
-        <ul className="mt-4 flex justify-center gap-4">
+        <ul className="mt-4 flex flex-col justify-center gap-4 md:flex-row">
           <li>
             <CheckmarkFilled24 className="mr-2 inline align-middle text-teal-300" />
             javascript
@@ -87,7 +87,7 @@ const Home: NextPage = () => {
           stuff i am <span className="text-violet-500">learning</span> at the
           moment
         </h2>
-        <ul className="mt-4 flex justify-center gap-4">
+        <ul className="mt-4 flex flex-col justify-center gap-4 md:flex-row">
           <li>
             <CheckmarkFilled24 className="mr-2 inline align-middle text-teal-300" />
             nest js

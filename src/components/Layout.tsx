@@ -15,9 +15,9 @@ function Layout({ children }: Props) {
           <Link href="/">
             <a className="text-xl leading-none text-white">rtabulov</a>
           </Link>
-          <div className="ml-4 hidden gap-4 sm:flex">
+          <div className="ml-4 gap-4">
             <AppLink href="/#contact" variant="light">
-              contact
+              contact me
             </AppLink>
           </div>
         </div>
