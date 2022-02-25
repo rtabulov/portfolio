@@ -18,29 +18,31 @@ const Home: NextPage = () => {
       </Head>
       <header className="container space-y-4 py-12 text-center text-xl">
         <h1 className="mb-8 text-4xl">
-          hi! my name is <span className="text-violet-500">rassul 😷</span>.
+          hi! my name is <span className="text-violet-400">rassul 😷</span>.
           i&apos;m a software developer 💻
         </h1>
 
         <p>
           i am only at the start of my
-          <span className="text-violet-500"> path of the ninja 🥷</span> in the
+          <span className="text-violet-400"> path of the ninja 🥷</span> in the
           software development world
         </p>
 
         <p>
-          i mostly work with <span className="text-violet-500">frontend</span>{' '}
+          i mostly work with <span className="text-violet-400">frontend</span>{' '}
           at the moment, but learning the backend & database stuff too
         </p>
 
         <p>
-          i love <span className="text-violet-500">open source</span>, and
+          i love <span className="text-violet-400">open source</span>, and
           always try to contriubte to the projects that i use
         </p>
 
         <p>
           you can check my github{' '}
-          <AppLink href="https://github.com/rtabulov">here</AppLink>
+          <AppLink href="https://github.com/rtabulov">
+            here <span className="sr-only">my github accout</span>
+          </AppLink>
         </p>
 
         <p>
@@ -52,7 +54,7 @@ const Home: NextPage = () => {
 
       <section className="container py-4 text-center">
         <h2 className="text-2xl">
-          stuff i already <span className="text-violet-500">work</span> with
+          stuff i already <span className="text-violet-400">work</span> with
         </h2>
 
         <ul className="mt-4 flex flex-col justify-center gap-4 md:flex-row">
@@ -84,7 +86,7 @@ const Home: NextPage = () => {
       </section>
       <section className="container py-4 text-center">
         <h2 className="text-2xl ">
-          stuff i am <span className="text-violet-500">learning</span> at the
+          stuff i am <span className="text-violet-400">learning</span> at the
           moment
         </h2>
         <ul className="mt-4 flex flex-col justify-center gap-4 md:flex-row">

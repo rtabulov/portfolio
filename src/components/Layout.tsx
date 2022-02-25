@@ -39,7 +39,7 @@ function Layout({ children }: Props) {
         <div className="container">
           <p>make love, not war ✌️</p>
           <p>
-            <span className="text-violet-500">rassul tabulov</span>
+            <span className="text-violet-400">rassul tabulov</span>
           </p>
           <p>{new Date().getFullYear()}</p>
         </div>
